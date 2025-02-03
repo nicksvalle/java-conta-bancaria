@@ -1,18 +1,51 @@
-## Getting Started
+# ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição do Projeto
 
-## Folder Structure
+O projeto **ContaBanco** é um programa simples desenvolvido em Java para praticar conceitos fundamentais de sintaxe, manipulação de entrada e saída via terminal, e uso da classe `Scanner`. Ele permite que o usuário cadastre uma conta bancária informando alguns dados essenciais e, ao final, recebe uma mensagem confirmando a criação da conta.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
+- Solicita ao usuário os seguintes dados:
+  - **Número da conta** (inteiro)
+  - **Agência** (texto)
+  - **Nome do cliente** (texto)
+  - **Saldo** (decimal)
+- Exibe uma mensagem final de confirmação com os dados inseridos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias Utilizadas
+- **Linguagem:** Java
+- **Ferramentas:** Terminal, Scanner, String concatenation
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar o Projeto
+1. Certifique-se de ter o **Java** instalado em seu sistema.
+2. Clone este repositório ou copie o código fonte.
+3. Compile o programa:
+   ```sh
+   javac ContaTerminal.java
+   ```
+4. Execute o programa:
+   ```sh
+   java ContaTerminal
+   ```
+5. Insira as informações conforme solicitado pelo terminal.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo de Uso
+```
+Por favor, digite o número da conta:
+1021
+Por favor, digite o número da agência:
+067-8
+Por favor, digite seu nome:
+MARIO ANDRADE
+Por favor, digite seu saldo:
+237.48
 
-## Dependency Management
+Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco, sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+Desenvolvido por **Nicolas Valle** como parte dos estudos em Java.
+
+## Licença
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
